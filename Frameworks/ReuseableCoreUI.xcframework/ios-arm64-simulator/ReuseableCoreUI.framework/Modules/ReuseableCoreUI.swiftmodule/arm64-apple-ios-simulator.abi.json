@@ -1,0 +1,221 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ReuseableCoreUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PrimaryButtonStyle",
+        "printedName": "PrimaryButtonStyle",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrimaryButtonStyle",
+                "printedName": "ReuseableCoreUI.PrimaryButtonStyle",
+                "usr": "s:15ReuseableCoreUI18PrimaryButtonStyleV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15ReuseableCoreUI18PrimaryButtonStyleVACycfc",
+            "mangledName": "$s15ReuseableCoreUI18PrimaryButtonStyleVACycfc",
+            "moduleName": "ReuseableCoreUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeBody",
+            "printedName": "makeBody(configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ButtonStyleConfiguration",
+                "printedName": "SwiftUI.ButtonStyleConfiguration",
+                "usr": "s:7SwiftUI24ButtonStyleConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15ReuseableCoreUI18PrimaryButtonStyleV8makeBody13configurationQr05SwiftC00eF13ConfigurationV_tF",
+            "mangledName": "$s15ReuseableCoreUI18PrimaryButtonStyleV8makeBody13configurationQr05SwiftC00eF13ConfigurationV_tF",
+            "moduleName": "ReuseableCoreUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15ReuseableCoreUI18PrimaryButtonStyleV",
+        "mangledName": "$s15ReuseableCoreUI18PrimaryButtonStyleV",
+        "moduleName": "ReuseableCoreUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ButtonStyle",
+            "printedName": "ButtonStyle",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI11ButtonStyleP",
+            "mangledName": "$s7SwiftUI11ButtonStyleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SecondaryButtonStyle",
+        "printedName": "SecondaryButtonStyle",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SecondaryButtonStyle",
+                "printedName": "ReuseableCoreUI.SecondaryButtonStyle",
+                "usr": "s:15ReuseableCoreUI20SecondaryButtonStyleV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15ReuseableCoreUI20SecondaryButtonStyleVACycfc",
+            "mangledName": "$s15ReuseableCoreUI20SecondaryButtonStyleVACycfc",
+            "moduleName": "ReuseableCoreUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeBody",
+            "printedName": "makeBody(configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ButtonStyleConfiguration",
+                "printedName": "SwiftUI.ButtonStyleConfiguration",
+                "usr": "s:7SwiftUI24ButtonStyleConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15ReuseableCoreUI20SecondaryButtonStyleV8makeBody13configurationQr05SwiftC00eF13ConfigurationV_tF",
+            "mangledName": "$s15ReuseableCoreUI20SecondaryButtonStyleV8makeBody13configurationQr05SwiftC00eF13ConfigurationV_tF",
+            "moduleName": "ReuseableCoreUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15ReuseableCoreUI20SecondaryButtonStyleV",
+        "mangledName": "$s15ReuseableCoreUI20SecondaryButtonStyleV",
+        "moduleName": "ReuseableCoreUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ButtonStyle",
+            "printedName": "ButtonStyle",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI11ButtonStyleP",
+            "mangledName": "$s7SwiftUI11ButtonStyleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

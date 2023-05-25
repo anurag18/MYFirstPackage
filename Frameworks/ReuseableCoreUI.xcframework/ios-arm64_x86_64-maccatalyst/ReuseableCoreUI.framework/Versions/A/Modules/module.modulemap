@@ -1,0 +1,4 @@
+framework module ReuseableCoreUI {
+  header "ReuseableCoreUI-Swift.h"
+  requires objc
+}

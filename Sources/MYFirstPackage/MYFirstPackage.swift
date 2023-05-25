@@ -3,4 +3,8 @@ public struct MYFirstPackage {
 
     public init() {
     }
+    
+    public func testAPI() {
+        print("I am testing the API")
+    }
 }

@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "credolabframeworks",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/anurag18/CredoLabFrameworks.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f8072ae9ac8d6094a2d48781b262f5fdf796b24d"
+      }
+    }
+  ],
+  "version" : 2
+}
